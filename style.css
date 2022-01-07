@@ -1,8 +1,7 @@
 /*section 1 start*/
 body{
   font-family:'Source Serif 4', sans-serif;
-  margin: 0%; 
-  margin-right: 80px;
+  margin: 0%;
 }
 .header-style{
   border-left:5px solid;
@@ -52,6 +51,7 @@ margin-top: 50px;
 /*section 2 start*/
 .Mission{
   text-align: center;
+  margin-right: 450px;
   font-size: 30px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -106,15 +106,16 @@ margin-top: 50px;
 /*section 3 start*/
 .without-limits{
   display: flex;
+  background-image:url(dream-bg.png);
+  background-repeat:no-repeat repeat;
   margin-left: 250px;
   width: 60%;
-
 }
 .develop-image{
   margin-right:30px;
   width:70%;
   margin-top: 30px;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 .new-thing{
    margin-left: 40px;
@@ -135,14 +136,20 @@ margin-top: 50px;
 /*section-4-start*/
 .Community{
   width: 40%;
+  font-size: 35px;
   border-radius: 30px;
   padding: 20px;
+  margin-top: 70px;
 }
 .para2{
   font-size: 20px;
 }
 .section-4{
 display: flex;
+background-image: url(bg9.png);
+background-repeat: no-repeat;
+background-position:1200px 170px;
+background-size:220px;
 }
 .section-4 img{
   width:40%;
@@ -155,6 +162,15 @@ margin-top:10px;
 size:40%;
 }
 /*section-4-end*/
+
+/*section-5-start*/
+.last-class{
+  background-image: url(bg2.PNG);
+  background-repeat:no-repeat;
+  background-position: 200px 100px;
+  background-size: 300px;;
+  margin-top: 100px;
+}
 .section-4{
   margin-left: 70px; 
 }
@@ -173,8 +189,7 @@ size:40%;
 }
 .Learner{
   display: flex;
-  width: 90%;
-  
+  width: 90%; 
 }
 .practicess{
   width: 100%; 
@@ -190,13 +205,18 @@ padding-left:20px;
  border-image-slice: 1;
  margin-left: 40px;
 }
+/*section-5-end*/
 footer{
   margin-top: 50px;
-  background-color: black;
+  color: rgb(245, 245, 245);
   padding: 20px;
-  font-color:white;
+  background:black;
+  
 }
 .footer-color{
-  color: rgb(143, 9, 9);
-
+  color: orange;
 }
+#hard{
+ font-size: 12px;
+}
+
